@@ -1,0 +1,17 @@
+{
+  "flights": 336776,
+  "cancel_rate": 0.024511841698933414,
+  "diverted_rate": 0.0034889659595695654,
+  "late15_rate_of_completed": 0.2446952154600942,
+  "unreliable_rate": 0.26584435945554313,
+  "carriers": 16,
+  "routes": 224,
+  "competitive_routes": 83,
+  "flights_on_competitive_routes": 244220,
+  "weather_match_rate": 0.9953292396132741,
+  "plane_match_rate": 0.8280400028505595,
+  "date_range": [
+    "2013-01-01",
+    "2013-12-31"
+  ]
+}

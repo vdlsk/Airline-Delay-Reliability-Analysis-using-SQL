@@ -1,0 +1,779 @@
+{
+  "data": {
+    "flights": 336776,
+    "cancel_rate": 0.024511841698933414,
+    "diverted_rate": 0.0034889659595695654,
+    "late15_rate_of_completed": 0.2446952154600942,
+    "unreliable_rate": 0.26584435945554313,
+    "carriers": 16,
+    "routes": 224,
+    "competitive_routes": 83,
+    "flights_on_competitive_routes": 244220,
+    "weather_match_rate": 0.9953292396132741,
+    "plane_match_rate": 0.8280400028505595,
+    "date_range": [
+      "2013-01-01",
+      "2013-12-31"
+    ]
+  },
+  "carriers_ranked": [
+    "UA",
+    "B6",
+    "EV",
+    "DL",
+    "AA",
+    "MQ",
+    "US",
+    "9E",
+    "WN",
+    "VX",
+    "FL"
+  ],
+  "q1_raw": [
+    {
+      "carrier": "YV",
+      "carrier_name": "Mesa Airlines Inc.",
+      "flights": 601,
+      "cancel_rate": 0.09317803660565724,
+      "late_rate": 0.3290441176470588,
+      "unreliable_rate": 0.39267886855241263,
+      "median_arr_delay": -2.0,
+      "p90_arr_delay": 76.0
+    },
+    {
+      "carrier": "F9",
+      "carrier_name": "Frontier Airlines Inc.",
+      "flights": 685,
+      "cancel_rate": 0.004379562043795621,
+      "late_rate": 0.3876651982378855,
+      "unreliable_rate": 0.39124087591240875,
+      "median_arr_delay": 6.0,
+      "p90_arr_delay": 76.0
+    },
+    {
+      "carrier": "FL",
+      "carrier_name": "AirTran Airways Corporation",
+      "flights": 3260,
+      "cancel_rate": 0.022392638036809815,
+      "late_rate": 0.3464566929133858,
+      "unreliable_rate": 0.36349693251533743,
+      "median_arr_delay": 5.0,
+      "p90_arr_delay": 69.59999999999991
+    },
+    {
+      "carrier": "EV",
+      "carrier_name": "ExpressJet Airlines Inc.",
+      "flights": 54173,
+      "cancel_rate": 0.05200007383752053,
+      "late_rate": 0.320869531188855,
+      "unreliable_rate": 0.3592933749284699,
+      "median_arr_delay": -1.0,
+      "p90_arr_delay": 77.0
+    },
+    {
+      "carrier": "MQ",
+      "carrier_name": "Envoy Air",
+      "flights": 26397,
+      "cancel_rate": 0.04674773648520665,
+      "late_rate": 0.2790270399808284,
+      "unreliable_rate": 0.31617229230594385,
+      "median_arr_delay": -1.0,
+      "p90_arr_delay": 57.0
+    },
+    {
+      "carrier": "OO",
+      "carrier_name": "SkyWest Airlines Inc.",
+      "flights": 32,
+      "cancel_rate": 0.09375,
+      "late_rate": 0.2413793103448276,
+      "unreliable_rate": 0.3125,
+      "median_arr_delay": -7.0,
+      "p90_arr_delay": 76.59999999999997
+    },
+    {
+      "carrier": "9E",
+      "carrier_name": "Endeavor Air Inc.",
+      "flights": 18460,
+      "cancel_rate": 0.05655471289274106,
+      "late_rate": 0.25569561697698623,
+      "unreliable_rate": 0.3027085590465872,
+      "median_arr_delay": -7.0,
+      "p90_arr_delay": 64.0
+    },
+    {
+      "carrier": "B6",
+      "carrier_name": "JetBlue Airways",
+      "flights": 54635,
+      "cancel_rate": 0.008529331014917178,
+      "late_rate": 0.2695146996244149,
+      "unreliable_rate": 0.2773496842683262,
+      "median_arr_delay": -3.0,
+      "p90_arr_delay": 56.0
+    },
+    {
+      "carrier": "WN",
+      "carrier_name": "Southwest Airlines Co.",
+      "flights": 12275,
+      "cancel_rate": 0.015641547861507128,
+      "late_rate": 0.2568913982065759,
+      "unreliable_rate": 0.2708757637474542,
+      "median_arr_delay": -3.0,
+      "p90_arr_delay": 54.0
+    },
+    {
+      "carrier": "UA",
+      "carrier_name": "United Air Lines Inc.",
+      "flights": 58665,
+      "cancel_rate": 0.011693514020284667,
+      "late_rate": 0.225052784604202,
+      "unreliable_rate": 0.23671695218614164,
+      "median_arr_delay": -6.0,
+      "p90_arr_delay": 43.0
+    },
+    {
+      "carrier": "US",
+      "carrier_name": "US Airways Inc.",
+      "flights": 20536,
+      "cancel_rate": 0.03228476821192053,
+      "late_rate": 0.1882406333518229,
+      "unreliable_rate": 0.21610829762368525,
+      "median_arr_delay": -6.0,
+      "p90_arr_delay": 31.0
+    },
+    {
+      "carrier": "AA",
+      "carrier_name": "American Airlines Inc.",
+      "flights": 32729,
+      "cancel_rate": 0.01943230773931376,
+      "late_rate": 0.19416533633831032,
+      "unreliable_rate": 0.2134192917596016,
+      "median_arr_delay": -9.0,
+      "p90_arr_delay": 38.0
+    },
+    {
+      "carrier": "DL",
+      "carrier_name": "Delta Air Lines Inc.",
+      "flights": 48110,
+      "cancel_rate": 0.007254209104136354,
+      "late_rate": 0.18964287213059716,
+      "unreliable_rate": 0.19725628767408024,
+      "median_arr_delay": -8.0,
+      "p90_arr_delay": 37.0
+    },
+    {
+      "carrier": "VX",
+      "carrier_name": "Virgin America",
+      "flights": 5162,
+      "cancel_rate": 0.006005424254165052,
+      "late_rate": 0.18686473807662235,
+      "unreliable_rate": 0.1941108097636575,
+      "median_arr_delay": -9.0,
+      "p90_arr_delay": 40.0
+    },
+    {
+      "carrier": "AS",
+      "carrier_name": "Alaska Airlines Inc.",
+      "flights": 714,
+      "cancel_rate": 0.0028011204481792717,
+      "late_rate": 0.1466854724964739,
+      "unreliable_rate": 0.15266106442577032,
+      "median_arr_delay": -17.0,
+      "p90_arr_delay": 27.0
+    },
+    {
+      "carrier": "HA",
+      "carrier_name": "Hawaiian Airlines Inc.",
+      "flights": 342,
+      "cancel_rate": 0.0,
+      "late_rate": 0.1286549707602339,
+      "unreliable_rate": 0.1286549707602339,
+      "median_arr_delay": -13.0,
+      "p90_arr_delay": 19.900000000000034
+    }
+  ],
+  "q1_like_for_like": [
+    {
+      "carrier": "F9",
+      "flights_on_shared_routes": 685.0,
+      "shared_routes": 1,
+      "carrier_rate": 0.39124087591240875,
+      "same_routes_avg_rate": 0.26727861771058314,
+      "excess_rate": 0.1239622582018256
+    },
+    {
+      "carrier": "FL",
+      "flights_on_shared_routes": 2396.0,
+      "shared_routes": 2,
+      "carrier_rate": 0.3718697829716194,
+      "same_routes_avg_rate": 0.28202078938947156,
+      "excess_rate": 0.08984899358214783
+    },
+    {
+      "carrier": "YV",
+      "flights_on_shared_routes": 593.0,
+      "shared_routes": 2,
+      "carrier_rate": 0.3962900505902192,
+      "same_routes_avg_rate": 0.30823054554863494,
+      "excess_rate": 0.08805950504158427
+    },
+    {
+      "carrier": "EV",
+      "flights_on_shared_routes": 20486.0,
+      "shared_routes": 28,
+      "carrier_rate": 0.35282632041394124,
+      "same_routes_avg_rate": 0.3030164160227303,
+      "excess_rate": 0.04980990439121091
+    },
+    {
+      "carrier": "B6",
+      "flights_on_shared_routes": 42936.0,
+      "shared_routes": 38,
+      "carrier_rate": 0.2804406558598845,
+      "same_routes_avg_rate": 0.24942431830691209,
+      "excess_rate": 0.03101633755297241
+    },
+    {
+      "carrier": "MQ",
+      "flights_on_shared_routes": 22791.0,
+      "shared_routes": 19,
+      "carrier_rate": 0.3164845772454039,
+      "same_routes_avg_rate": 0.28588096316078765,
+      "excess_rate": 0.030603614084616183
+    },
+    {
+      "carrier": "OO",
+      "flights_on_shared_routes": 32.0,
+      "shared_routes": 5,
+      "carrier_rate": 0.3125,
+      "same_routes_avg_rate": 0.30134998330817364,
+      "excess_rate": 0.011150016691826364
+    },
+    {
+      "carrier": "9E",
+      "flights_on_shared_routes": 13724.0,
+      "shared_routes": 39,
+      "carrier_rate": 0.3004226173127368,
+      "same_routes_avg_rate": 0.29348847696866026,
+      "excess_rate": 0.006934140344076509
+    },
+    {
+      "carrier": "UA",
+      "flights_on_shared_routes": 45790.0,
+      "shared_routes": 28,
+      "carrier_rate": 0.23823979034723738,
+      "same_routes_avg_rate": 0.2414207200225262,
+      "excess_rate": -0.003180929675288793
+    },
+    {
+      "carrier": "AA",
+      "flights_on_shared_routes": 27213.0,
+      "shared_routes": 21,
+      "carrier_rate": 0.2119942674457061,
+      "same_routes_avg_rate": 0.22482128230443502,
+      "excess_rate": -0.012827014858728957
+    },
+    {
+      "carrier": "WN",
+      "flights_on_shared_routes": 6746.0,
+      "shared_routes": 12,
+      "carrier_rate": 0.26549066113252295,
+      "same_routes_avg_rate": 0.2798025008553691,
+      "excess_rate": -0.014311839722846099
+    },
+    {
+      "carrier": "VX",
+      "flights_on_shared_routes": 5142.0,
+      "shared_routes": 5,
+      "carrier_rate": 0.19447685725398678,
+      "same_routes_avg_rate": 0.22419108663249643,
+      "excess_rate": -0.029714229378509625
+    },
+    {
+      "carrier": "DL",
+      "flights_on_shared_routes": 44069.0,
+      "shared_routes": 37,
+      "carrier_rate": 0.19528466722639498,
+      "same_routes_avg_rate": 0.243528057283247,
+      "excess_rate": -0.04824339005685201
+    },
+    {
+      "carrier": "US",
+      "flights_on_shared_routes": 10903.0,
+      "shared_routes": 5,
+      "carrier_rate": 0.20132073741172155,
+      "same_routes_avg_rate": 0.2543098403523472,
+      "excess_rate": -0.052989102940625636
+    },
+    {
+      "carrier": "AS",
+      "flights_on_shared_routes": 714.0,
+      "shared_routes": 1,
+      "carrier_rate": 0.15266106442577032,
+      "same_routes_avg_rate": 0.22228290551611143,
+      "excess_rate": -0.06962184109034111
+    }
+  ],
+  "q2_drop_one_r2": {
+    "r2_full": 0.2143588984583571,
+    "drop_one": {
+      "carrier": 0.006829947086198551,
+      "route": 0.00515593555536864,
+      "origin x date (daily conditions)": 0.12661097964177848,
+      "scheduled hour": 0.037136383191159306,
+      "month": -2.220446049250313e-16,
+      "weekday": 2.220446049250313e-16
+    },
+    "alone": {
+      "carrier": 0.016479268700753336,
+      "route": 0.016070814570492198,
+      "origin x date (daily conditions)": 0.15560592850476584,
+      "scheduled hour": 0.04051342650548062,
+      "month": 0.021203929824520906,
+      "weekday": 0.005911883696672615
+    }
+  },
+  "q2_effects": {
+    "weather_pp": {
+      "rain": {
+        "effect_pp": 22.27674211117961,
+        "ci": [
+          17.88684184623935,
+          26.666642376119867
+        ]
+      },
+      "low_vis": {
+        "effect_pp": 16.75982791965246,
+        "ci": [
+          11.936954014170116,
+          21.5827018251348
+        ]
+      },
+      "strong_wind": {
+        "effect_pp": 8.272579954270963,
+        "ci": [
+          4.7211559087731985,
+          11.824003999768728
+        ]
+      }
+    },
+    "aircraft_age_vs_0_5yrs_pp": {
+      "11-15": {
+        "effect_pp": 1.5397084839538788,
+        "ci": [
+          0.8839543662778545,
+          2.1954626016299033
+        ]
+      },
+      "16-20": {
+        "effect_pp": 2.1879940158092737,
+        "ci": [
+          0.8580517669088665,
+          3.5179362647096806
+        ]
+      },
+      "21+": {
+        "effect_pp": 4.0933267912927915,
+        "ci": [
+          2.6104928166754835,
+          5.5761607659101
+        ]
+      },
+      "6-10": {
+        "effect_pp": 0.40780654572189656,
+        "ci": [
+          -0.21116370724126354,
+          1.0267767986850567
+        ]
+      }
+    },
+    "hour_range": {
+      "best_hour": 5,
+      "best_rate_pct": 11.059907834101383,
+      "worst_hour": 21,
+      "worst_rate_pct": 39.842678130430805
+    },
+    "month_range": {
+      "best_month": 9,
+      "best_rate_pct": 15.48197577428012,
+      "worst_month": 12,
+      "worst_rate_pct": 36.179136307090815
+    }
+  },
+  "q3_carrier_effects": [
+    {
+      "carrier": "EV",
+      "model": "all routes",
+      "effect_pp": 10.201245922275533,
+      "se": 1.038898484715255,
+      "ci_low": 8.165004892233632,
+      "ci_high": 12.237486952317433,
+      "significant": true,
+      "flights": 54173
+    },
+    {
+      "carrier": "FL",
+      "model": "all routes",
+      "effect_pp": 6.346830419542723,
+      "se": 0.5663959366761493,
+      "ci_low": 5.23669438365747,
+      "ci_high": 7.456966455427976,
+      "significant": true,
+      "flights": 3260
+    },
+    {
+      "carrier": "MQ",
+      "model": "all routes",
+      "effect_pp": 5.140811738493794,
+      "se": 0.8892618748239797,
+      "ci_low": 3.3978584638387943,
+      "ci_high": 6.883765013148794,
+      "significant": true,
+      "flights": 26397
+    },
+    {
+      "carrier": "9E",
+      "model": "all routes",
+      "effect_pp": 3.5987036743870267,
+      "se": 0.8997510627175316,
+      "ci_low": 1.8351915914606647,
+      "ci_high": 5.362215757313389,
+      "significant": true,
+      "flights": 18460
+    },
+    {
+      "carrier": "WN",
+      "model": "all routes",
+      "effect_pp": 2.2699314341240955,
+      "se": 1.7467877440871036,
+      "ci_low": -1.1537725442866273,
+      "ci_high": 5.693635412534818,
+      "significant": false,
+      "flights": 12275
+    },
+    {
+      "carrier": "B6",
+      "model": "all routes",
+      "effect_pp": 1.7847124913438883,
+      "se": 0.6253928441959681,
+      "ci_low": 0.558942516719791,
+      "ci_high": 3.0104824659679856,
+      "significant": true,
+      "flights": 54635
+    },
+    {
+      "carrier": "UA",
+      "model": "all routes",
+      "effect_pp": -2.8726617204139706,
+      "se": 0.781927691689171,
+      "ci_low": -4.405239996124745,
+      "ci_high": -1.3400834447031955,
+      "significant": true,
+      "flights": 58665
+    },
+    {
+      "carrier": "US",
+      "model": "all routes",
+      "effect_pp": -3.6680784687777193,
+      "se": 1.3595776413403824,
+      "ci_low": -6.332850645804869,
+      "ci_high": -1.0033062917505697,
+      "significant": true,
+      "flights": 20536
+    },
+    {
+      "carrier": "VX",
+      "model": "all routes",
+      "effect_pp": -5.7847791514849405,
+      "se": 1.12129800717189,
+      "ci_low": -7.982523245541845,
+      "ci_high": -3.587035057428036,
+      "significant": true,
+      "flights": 5162
+    },
+    {
+      "carrier": "AA",
+      "model": "all routes",
+      "effect_pp": -5.834893932535212,
+      "se": 1.193028570213438,
+      "ci_low": -8.17322993015355,
+      "ci_high": -3.4965579349168734,
+      "significant": true,
+      "flights": 32729
+    },
+    {
+      "carrier": "DL",
+      "model": "all routes",
+      "effect_pp": -9.065566043711879,
+      "se": 0.735597212051843,
+      "ci_low": -10.507336579333492,
+      "ci_high": -7.623795508090266,
+      "significant": true,
+      "flights": 48110
+    },
+    {
+      "carrier": "EV",
+      "model": "competitive routes only",
+      "effect_pp": 11.453834356515813,
+      "se": 1.1855146070843467,
+      "ci_low": 9.130225726630494,
+      "ci_high": 13.777442986401132,
+      "significant": true,
+      "flights": 20486
+    },
+    {
+      "carrier": "FL",
+      "model": "competitive routes only",
+      "effect_pp": 7.671963121532305,
+      "se": 0.5478145754910642,
+      "ci_low": 6.598246553569819,
+      "ci_high": 8.745679689494791,
+      "significant": true,
+      "flights": 2396
+    },
+    {
+      "carrier": "MQ",
+      "model": "competitive routes only",
+      "effect_pp": 6.253085351567888,
+      "se": 0.9077477754393638,
+      "ci_low": 4.473899711706736,
+      "ci_high": 8.03227099142904,
+      "significant": true,
+      "flights": 22791
+    },
+    {
+      "carrier": "9E",
+      "model": "competitive routes only",
+      "effect_pp": 4.558294917892185,
+      "se": 0.9168926676276801,
+      "ci_low": 2.761185289341933,
+      "ci_high": 6.355404546442438,
+      "significant": true,
+      "flights": 13724
+    },
+    {
+      "carrier": "WN",
+      "model": "competitive routes only",
+      "effect_pp": 3.406366643889799,
+      "se": 1.812096501341758,
+      "ci_low": -0.14534249874004646,
+      "ci_high": 6.958075786519645,
+      "significant": false,
+      "flights": 6746
+    },
+    {
+      "carrier": "B6",
+      "model": "competitive routes only",
+      "effect_pp": 2.8231064671599606,
+      "se": 0.5988200004581647,
+      "ci_low": 1.6494192662619578,
+      "ci_high": 3.9967936680579634,
+      "significant": true,
+      "flights": 42936
+    },
+    {
+      "carrier": "UA",
+      "model": "competitive routes only",
+      "effect_pp": -1.668633599611207,
+      "se": 0.7569602236727027,
+      "ci_low": -3.152275638009704,
+      "ci_high": -0.18499156121270977,
+      "significant": true,
+      "flights": 45790
+    },
+    {
+      "carrier": "US",
+      "model": "competitive routes only",
+      "effect_pp": -2.616346618622059,
+      "se": 1.3350409373016068,
+      "ci_low": -5.233026855733208,
+      "ci_high": 0.00033361848909008174,
+      "significant": false,
+      "flights": 10903
+    },
+    {
+      "carrier": "VX",
+      "model": "competitive routes only",
+      "effect_pp": -4.659444430810846,
+      "se": 1.2028107928256597,
+      "ci_low": -7.016953584749139,
+      "ci_high": -2.301935276872553,
+      "significant": true,
+      "flights": 5142
+    },
+    {
+      "carrier": "AA",
+      "model": "competitive routes only",
+      "effect_pp": -4.742605313599798,
+      "se": 1.1612401220598298,
+      "ci_low": -7.018635952837064,
+      "ci_high": -2.466574674362531,
+      "significant": true,
+      "flights": 27213
+    },
+    {
+      "carrier": "DL",
+      "model": "competitive routes only",
+      "effect_pp": -7.81359888470165,
+      "se": 0.7096132023316387,
+      "ci_low": -9.204440761271663,
+      "ci_high": -6.422757008131638,
+      "significant": true,
+      "flights": 44069
+    },
+    {
+      "carrier": "EV",
+      "model": "cancellation",
+      "effect_pp": 3.0178172934824374,
+      "se": 0.3538085492497583,
+      "ci_low": 2.324352536952911,
+      "ci_high": 3.7112820500119637,
+      "significant": true,
+      "flights": 54173
+    },
+    {
+      "carrier": "9E",
+      "model": "cancellation",
+      "effect_pp": 2.7678081232990333,
+      "se": 0.3809627828628121,
+      "ci_low": 2.0211210688879215,
+      "ci_high": 3.514495177710145,
+      "significant": true,
+      "flights": 18460
+    },
+    {
+      "carrier": "MQ",
+      "model": "cancellation",
+      "effect_pp": 1.979764769644603,
+      "se": 0.38962120265693395,
+      "ci_low": 1.2161072124370125,
+      "ci_high": 2.7434223268521936,
+      "significant": true,
+      "flights": 26397
+    },
+    {
+      "carrier": "FL",
+      "model": "cancellation",
+      "effect_pp": -0.038749653177375665,
+      "se": 0.100469004353253,
+      "ci_low": -0.23566890170975152,
+      "ci_high": 0.1581695953550002,
+      "significant": false,
+      "flights": 3260
+    },
+    {
+      "carrier": "US",
+      "model": "cancellation",
+      "effect_pp": -0.2785614484028398,
+      "se": 0.38302043609025943,
+      "ci_low": -1.0292815031397482,
+      "ci_high": 0.4721586063340687,
+      "significant": false,
+      "flights": 20536
+    },
+    {
+      "carrier": "WN",
+      "model": "cancellation",
+      "effect_pp": -0.8996309243368672,
+      "se": 0.30767861049746653,
+      "ci_low": -1.5026810009119016,
+      "ci_high": -0.2965808477618328,
+      "significant": true,
+      "flights": 12275
+    },
+    {
+      "carrier": "AA",
+      "model": "cancellation",
+      "effect_pp": -0.9705763473860578,
+      "se": 0.2471388583938996,
+      "ci_low": -1.454968509838101,
+      "ci_high": -0.4861841849340146,
+      "significant": true,
+      "flights": 32729
+    },
+    {
+      "carrier": "VX",
+      "model": "cancellation",
+      "effect_pp": -1.1586066609592776,
+      "se": 0.25705279991003005,
+      "ci_low": -1.6624301487829365,
+      "ci_high": -0.6547831731356186,
+      "significant": true,
+      "flights": 5162
+    },
+    {
+      "carrier": "B6",
+      "model": "cancellation",
+      "effect_pp": -1.274590181990889,
+      "se": 0.1682628346090408,
+      "ci_low": -1.604385337824609,
+      "ci_high": -0.9447950261571689,
+      "significant": true,
+      "flights": 54635
+    },
+    {
+      "carrier": "UA",
+      "model": "cancellation",
+      "effect_pp": -1.2891112830344147,
+      "se": 0.2588106621460266,
+      "ci_low": -1.7963801808406268,
+      "ci_high": -0.7818423852282026,
+      "significant": true,
+      "flights": 58665
+    },
+    {
+      "carrier": "DL",
+      "model": "cancellation",
+      "effect_pp": -1.391359479951832,
+      "se": 0.17632555968460434,
+      "ci_low": -1.7369575769336565,
+      "ci_high": -1.0457613829700076,
+      "significant": true,
+      "flights": 48110
+    }
+  ],
+  "q3_summary": {
+    "n_flights_model": 334397,
+    "n_flights_competitive_model": 242196,
+    "significantly_worse": [
+      "EV",
+      "FL",
+      "MQ",
+      "9E",
+      "B6"
+    ],
+    "significantly_better": [
+      "UA",
+      "US",
+      "VX",
+      "AA",
+      "DL"
+    ],
+    "worst": {
+      "carrier": "EV",
+      "model": "all routes",
+      "effect_pp": 10.201245922275533,
+      "se": 1.038898484715255,
+      "ci_low": 8.165004892233632,
+      "ci_high": 12.237486952317433,
+      "significant": true,
+      "flights": 54173
+    },
+    "best": {
+      "carrier": "DL",
+      "model": "all routes",
+      "effect_pp": -9.065566043711879,
+      "se": 0.735597212051843,
+      "ci_low": -10.507336579333492,
+      "ci_high": -7.623795508090266,
+      "significant": true,
+      "flights": 48110
+    },
+    "spread_pp": 19.26681196598741,
+    "raw_spread_pp": 16.938612275167994,
+    "rank_corr_all_vs_competitive": 1.0
+  },
+  "route_carrier_eb": {
+    "pairs": 362,
+    "median_prior_flights": 325.3773155467252
+  }
+}
